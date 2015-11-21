@@ -1,0 +1,16 @@
+{
+  "name": "planet-gravity",
+  "version": "0.0.1",
+  "description": "Playing with gravity",
+  "author": "Ivan Loire",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "npm install; webpack"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "webpack": "^1.12.13"
+  }
+}
